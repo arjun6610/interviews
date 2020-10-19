@@ -210,8 +210,8 @@ or equal to those of the children and the lowest key is in the root node
 ![Alt text](/images/mergesort.gif?raw=true "Mergesort")
 
 #### Bucket Sort
-* *Bucket Sort* is a sorting algorithm that works by distributing the elements of an array into a number of buckets. Each bucket
-  is then sorted individually, either using a different sorting algorithm, or by recursively applying the bucket sorting algorithm
+* *Bucket Sort* is a sorting algorithm that works by distributing the elements of an array into several buckets. Each bucket
+  is then sorted individually, either using a different sorting algorithm or by recursively applying the bucket sorting algorithm
 * Time Complexity:
   * Best Case: `Ω(n + k)`
   * Worst Case: `O(n^2)`
@@ -220,7 +220,7 @@ or equal to those of the children and the lowest key is in the root node
 ![Alt text](/images/bucketsort.png?raw=true "Bucket Sort")
 
 #### Radix Sort
-* *Radix Sort* is a sorting algorithm that like bucket sort, distributes elements of an array into a number of buckets. However, radix
+* *Radix Sort* is a sorting algorithm that like bucket sort, distributes elements of an array into several buckets. However, radix
   sort differs from bucket sort by 're-bucketing' the array after the initial pass as opposed to sorting each bucket and merging
 * Time Complexity:
   * Best Case: `Ω(nk)`
@@ -235,8 +235,8 @@ or equal to those of the children and the lowest key is in the root node
 
 ![Alt text](/images/dfsbfs.gif?raw=true "DFS / BFS Traversal")
 
-#### Breadth First Search
-* *Breadth First Search* is a graph traversal algorithm which explores the neighbor nodes first, before moving to the next
+#### Breadth-First Search
+* *Breadth-First Search* is a graph traversal algorithm which explores the neighbor nodes first, before moving to the next
   level neighbors
 * Time Complexity: `O(|V| + |E|)`
 
@@ -273,8 +273,8 @@ or equal to those of the children and the lowest key is in the root node
   * Average Case: `O(|V|^3)`
 
 #### Prim's Algorithm
-* *Prim's Algorithm* is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph. In other words, Prim's find a
-  subset of edges that forms a tree that includes every node in the graph
+* *Prim's Algorithm* is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph. In other words, Prim's find
+  the subset of edges that forms a tree that includes every node in the graph
 * Time Complexity: `O(|V|^2)`
 
 ![Alt text](/images/prim.gif?raw=true "Prim's Algorithm")
